@@ -1,7 +1,3 @@
-//static
-import flagTr from '../../static/images/turkey.png'
-import flagEn from '../../static/images/united-kingdom.png'
-
 //third-party
 import { createSlice } from '@reduxjs/toolkit';
 
@@ -9,6 +5,9 @@ import { createSlice } from '@reduxjs/toolkit';
 import { LANGUAGES_CODE } from '../../common/constants/languages';
 import { LANGUAGE } from '../../common/interfaces/languages';
 
+//static
+import flagTr from '../../static/images/turkey.png'
+import flagEn from '../../static/images/united-kingdom.png'
 
 const LANGUAGES: Array<LANGUAGE> = [
     { code: LANGUAGES_CODE.TR, flag: flagTr },
